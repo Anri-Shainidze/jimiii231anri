@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&family=League+Spartan:wght@100..900&family=Lexend+Deca:wght@100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+body {
+  height: 100vh;
+  background: #effafa;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "League Spartan", sans-serif;
+}
+.foreveryone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  margin-top: 22px;
+}
+.firstcontainer {
+  height: 260px;
+  width: 91%;
+  border-radius: 9px;
+  background-color: #ffffff;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 15px 20px -5px #0d718226;
+  padding: 2rem;
+}
+span {
+  font-family: League Spartan;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  color: #5ca5a5;
+}
+p {
+  font-weight: 500;
+  font-family: League Spartan;
+  font-size: 17px;
+  color: #7c8f8f;
+  line-height: 24px;
+  letter-spacing: -0.13px;
+}
+.for-bar{
+  display: flex;
+  width: 100%;
+  background-color: white;
+  padding: 2rem;
+  height: auto;
+  flex-direction: column;
+  top: 0;
+  gap: 2rem;
+  position: absolute;
+}
+#log1 {
+  width: 50px;
+  position: relative;
+  top: -30px;
+}
+.one {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 10px;
+}
+.for-bar button{
+  width: 20%;
+}
+@media (min-width:920px){
+  .mokosokoskauri{
+    height: 203px;
+  }
+}
+.second-skill{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.2rem;
+}
+.mokosokoskauri{
+  width: 100%;
+}
+button {
+  background: #5ca5a5;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  width: 20%;
+  height: 32px;
+}
