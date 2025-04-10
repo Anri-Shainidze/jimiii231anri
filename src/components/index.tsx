@@ -181,6 +181,11 @@ const photoSnapJob: Array<JobPosting> = [
   },
 ];
 
+// interface JobPosting {
+//   company: {
+//     logo: string;
+//     name: string;
+//   };
 
 // interface FilteredJobPosting extends JobPosting {
 const ListedItems = () => {
@@ -208,6 +213,7 @@ const ListedItems = () => {
   };
   // const clearFilters = () => {
 
+  //   setSelectedSkills([]);
   return (
     <>
       {selectedSkills.length > 1 && (
@@ -228,7 +234,6 @@ const ListedItems = () => {
       )}
       
 
-
       
       <div className="foreveryone">
         {filteredJobs.map((item, index) => (
@@ -242,8 +247,8 @@ const ListedItems = () => {
                   style={{
                     display: "flex",
                     flexDirection: "row",
-                    gap: "10px",
-                    marginTop: "10px",
+                    gap: "11px",
+                    marginTop: "11px",
                   }}
                 >
                   <p>{item.postedTime}</p>
